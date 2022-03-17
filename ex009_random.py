@@ -3,8 +3,9 @@ import random
 
 class Dice:
     def roll(self):
-        result = (random.randint(1, 6), random.randint(1, 6))
-        return result
+        first_number = random.randint(1, 6)
+        second_number = random.randint(1, 6)
+        return first_number, second_number
 
 
 dice = Dice()
