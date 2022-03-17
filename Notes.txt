@@ -1,0 +1,7 @@
+functions
+    Upon Calling
+        Positional Arguments
+            Always comes first
+
+        Key Arguments
+            is good to make the code more readable sometimes
