@@ -2,10 +2,10 @@ import random
 
 
 class Dice:
-    def roll():
+    def roll(self):
         result = (random.randint(1, 6), random.randint(1, 6))
         return result
 
 
-result = Dice.roll()
-print(result)
+dice = Dice()
+print(dice.roll())
