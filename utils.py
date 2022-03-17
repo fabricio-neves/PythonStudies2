@@ -1,7 +1,7 @@
 def find_max(numbers):
-    max = 0
+    maximum = 0
     for number in numbers:
-        if max < number:
-            max = number
-    return max
+        if maximum < number:
+            maximum = number
+    return maximum
 
